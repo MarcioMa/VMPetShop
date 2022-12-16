@@ -1,0 +1,63 @@
+body{ 
+    background-color: #666666;
+    transition-delay: 1s;    
+}
+#userSession{
+    position: relative;
+    display: block;
+    float: right;
+    font-family:'open_sansregular';
+    font-size: 2.5em;
+    color: #FFF;
+    margin-right:1%;
+    text-shadow: 2px 2px 4px #000000;
+}
+.table-horizontal{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background:#ffffff; 
+    box-shadow: 1px 0px 1.2px 1.2px #e3e3e3; 
+    border-radius:3px; 
+    padding:1em;
+}
+#thead{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table-horizontal td, th{
+    padding: 12px 25px;
+}
+.table-horizontal tr{
+    border-bottom: 1px solid #dddddd;
+}
+.table-horizontal tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.table-horizontal tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.table-horizontal tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+h3{
+   font-size: 2em;
+   font-weight: bold;
+   text-align: center;
+   font-family:'open_sansregular';
+   color:#FFF;
+   text-shadow: 2px 2px 4px #000000;
+}
+signup-form{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background:#ffffff; 
+    box-shadow: 1px 0px 1.2px 1.2px #e3e3e3; 
+    border-radius:3px; 
+    padding:1em;
+}

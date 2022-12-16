@@ -1,0 +1,58 @@
+/* Bordered form */
+form {
+  //border: 3px solid #f1f1f1;
+  text-align: right;
+  padding-right: 1%;
+}
+
+#ftlogo{
+    display: block;
+    position: relative;
+    float: top;
+    width: 40%;
+    height: 40%;
+    top:0;
+    float: left;
+}
+
+/* Full-width inputs */
+#login[type=text], #pass[type=password] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#submit {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+/* Add a hover effect for buttons */
+#submit:hover {
+  opacity: 0.8;
+}
+
+#figura1{
+    left: 10%;
+    top:0;
+    width: auto;
+    height: 420px;
+    display: block;
+    position: relative;
+}
+
+#figura2{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
